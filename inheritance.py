@@ -13,7 +13,7 @@ class Dog(Animal):
     def __init__(self):
         self.has_legs       = True
         self.has_wings      = False
-        self.can_swim       = False
+        self.can_swim       = True
         self.can_make_sound = True
 
     def make_sound(self):
