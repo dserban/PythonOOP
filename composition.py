@@ -8,6 +8,7 @@ class Animal:
     def make_sound(self):
         print "Sound behavior not implemented."
 
+# has_a is the wrong choice in this particular case
 class Dog:
     def __init__(self):
         self.prototype = Animal( has_legs=True,
