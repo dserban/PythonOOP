@@ -8,6 +8,7 @@ class Animal(object):
     def make_sound(self):
         print "Sound behavior undefined"
 
+# is_a is the correct choice in this particular case
 class Dog(Animal):
     def __init__(self):
         self.has_legs       = True
